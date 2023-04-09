@@ -3,6 +3,7 @@ const argv = require('minimist')(process.argv.slice(2));
 
 const f = {
     pub: require("./bin/pub"),
+    build: require("./bin/build"),
     gitn: require("./bin/gitn"),
     gitp: require("./bin/gitp"),
 }
